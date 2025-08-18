@@ -2,6 +2,7 @@
 #include <cstddef>
 #include <cstdint>
 #include <cassert>
+
 template<typename T, std::size_t Size>
 struct Vec {
     T data[Size];
